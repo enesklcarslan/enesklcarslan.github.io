@@ -1,0 +1,38 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white !important;
+}
+#header{
+    background-color: black;
+}
+#nav{
+    border:3px solid black;
+    border-bottom-color:white;
+    border-bottom:2px solid;
+    text-align:center;
+    padding:1rem;
+    
+}
+#nav:hover{
+    border-bottom-color:gold;
+    background-color:#232323;
+    text-decoration:none;
+}
+#content{
+    background-color: black; 
+    margin-top:3rem;
+    margin-bottom:3rem;
+    line-height:2rem;
+    font-size: large;
+    padding:1rem;
+}
+#login-icerik{
+    padding:15%;
+}
+body{
+    background-color:black;
+}
+footer{
+    background-color:#000000;
+    border-top:2px solid white;
+}
