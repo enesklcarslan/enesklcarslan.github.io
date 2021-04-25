@@ -1,15 +1,19 @@
 # enesklcarslan.github.io
-Amaç: PHP, HTML, CSS, Bootstrap ve Javascript teknolojilerini kullanarak kendimi ve şehrimi tanıtan bir websitesi hazırlayıp Web Teknolojileri dersinde öğrendiklerimi pekiştirmek.
+Amaç: PHP, HTML, CSS, Bootstrap ve Javascript teknolojilerini kullanarak kendimi ve şehrimi tanıtan bir websitesi hazırlayıp Web Teknolojileri dersinde öğrendiklerimi pekiştirmek.  
+Hazırlayan: Enes Kılıçarslan
 
-Yol taslağı: 
+Yol taslağı:   
 1-HTML ile sitenin iskeletini oluşturmak, CSS ile gerekli süslemeleri yapmak. Bootstrap elementlerini kullanarak menüyü ve div'leri responsive hale getirmek ve mobil
-ekranlarda da rahatlıkla sitenin görüntülenebilmesini sağlamak.
-2-Semantic HTML tagları kullanarak bir özgeçmiş sayfası oluşturmak.
+ekranlarda da rahatlıkla sitenin görüntülenebilmesini sağlamak.  
+2-Semantic HTML tagları kullanarak bir özgeçmiş sayfası oluşturmak.  
+3-Memleketimi(Eskişehir) ve şehrimin güzelliklerini tanıttığım, aynı zamanda bir slider ve slider elemanları olarak kısa bilgiler içeren farklı sayfalara link verdiğim bir sayfa oluşturmak.  
 3-PHP kullanarak Login formu, İletişim formu gibi formlardan alınan verileri farklı sayfalara POST methodu kullanarak
 göndermek ve bu sayfalarda gönderilen veriyi işlemek. Oluşturulan formlara girilen veriyi JS ve HTML kullanarak uygun şekilde formatlanmış mı, boş bırakılmış mı gibi kontrolleri
-yapmak.
+yapmak.  
 4-PHP kullanarak herhangi bir API'den veri çekmek. (Muhtemelen ilgi alanlarımda korku filmi izlemek olduğu için bulabilirsem bir film veritabanı bulup rastgele korku filmi
-önerisi yapan bir API'dan veri çekeceğim.) 
+önerisi yapan bir API'dan veri çekeceğim.)   
 
 Ödev Planı: Haftada birkaç kez yaptığım geliştirme/değiştirmeleri github commitleri ile "https://github.com/enesklcarslan/enesklcarslan.github.io" adresli repository'de
-yayınlayacağım. Aynı zamanda sitenin canlı versiyonunu GitHub Pages kullanarak "https://enesklcarslan.github.io" adresi üzerinden paylaşıyor olacağım.
+yayınlayacağım. Aynı zamanda sitenin canlı versiyonunu GitHub Pages kullanarak "https://enesklcarslan.github.io" adresi üzerinden paylaşıyor olacağım. (Github Pages üzerinden sadece websitesinin statik kısımları görüntülenebilir)  
+  
+
