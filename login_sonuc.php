@@ -4,7 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Giriş Yap</title>
+    <?php
+    if($_POST['Username']=='g201210016@sakarya.edu.tr' && $_POST['Password']=='g201210016'){
+        echo "<title>Giriş Başarılı!</title>";
+    }
+    else{
+        echo "<title>Giriş Başarısız!</title>";
+    }
+        ?>
     <meta charset="UTF-8">
 </head>
 <body>
@@ -36,22 +43,21 @@
     <div class="container-fluid" id="body">
         <div class="container-lg" id="content">
             <div class="row">
-                <div class="col-md" id="login-icerik">
-                <form action="login_sonuc.php" method="POST">
-                <fieldset style="margin-top:70px;margin-bottom:200px;">
-                    <legend>Kullanıcı Girişi</legend>
-                    <label for="id">Kullanıcı Adı</label>
-                    <input type="email" id="Username" name="Username" placeholder="Kullanıcı Adınız..." required>
-
-                    <label for="sifre">Şifre</label>
-                    <input id="Password" name="Password" type="password" placeholder="Şifreniz..." required >
-                    <input type="submit" value="Giriş Yap">
-                </fieldset>
-                <br>
-                </form>
+                <div class="col-md" align="center" id="login-icerik">
+                    <?php
+                    if($_POST['Username']=='g201210016@sakarya.edu.tr' && $_POST['Password']=='g201210016'){
+                        echo nl2br('<span style="color:green !important;">Giriş işlemi başarılı! Hoşgeldiniz "g201210016".
+                        5 saniye içinde anasayfaya yönlendiriliyorsunuz...</span>');
+                        header("refresh:5;url=/");
+                    }
+                    else{
+                        echo nl2br('<span style="color:red !important;">Giriş işlemi başarısız! Login sayfasına yönlendiriliyorsunuz...
+                        Lütfen tekrar deneyiniz.</span>');
+                        header("refresh:3;url=login.php");
+                    }
+                    ?>
                 </div>
             </div>
-        </div>
     </div>
     <footer>
         <div class="text-center p-3">

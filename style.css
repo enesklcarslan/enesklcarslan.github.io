@@ -2,6 +2,22 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:white !important;
 }
+input{
+    color:black !important;
+}
+legend{
+    border:2px solid white;
+    padding:10px 15px;
+    border-radius:50px;
+    text-align: center;
+}
+fieldset{
+    border:5px dashed white;
+    padding:30px;
+}
+option{
+    color:black !important;
+}
 #header{
     background-color: black;
 }
@@ -26,9 +42,6 @@
     font-size: large;
     padding:1rem;
 }
-#login-icerik{
-    padding:15%;
-}
 body{
     background-color:black;
 }
@@ -36,3 +49,90 @@ footer{
     background-color:#000000;
     border-top:2px solid white;
 }
+input[type=text], input[type=password], input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: black !important;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+      cursor: pointer;
+  }
+input[type=radio] {
+    margin:15px 9px;
+    cursor: pointer;
+}
+.checkbox{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkbox input{/* Tarayıcının varsayılan checkbox'unu gizleyip kendi custom checkbox'ımızı koyuyoruz */
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border:2px solid white;
+}
+.checkbox:hover input ~ .checkmark {
+    background-color: #363636;
+}
+.checkbox input:checked ~ .checkmark {
+    background-color: #000000;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+  input[type=submit]:hover {
+    background-color: black;
+    color:white !important;
+    border-color:white;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
