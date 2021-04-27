@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="form-kontrol.js"></script>
+    <script src="darkmode.js"></script>
     <title>İletişim</title>
     <meta charset="UTF-8">
 </head>
@@ -33,6 +34,7 @@
                 İletişim
             </a>
         </div>
+        <button class="btn" onclick="toggleDarkMode()"></button>
     </div>
 
     <div class="container-fluid" id="body">

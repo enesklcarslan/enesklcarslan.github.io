@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="darkmode.js"></script>
     <?php
     if($_POST['Username']=='g201210016@sakarya.edu.tr' && $_POST['Password']=='g201210016'){
         echo "<title>Giriş Başarılı!</title>";
@@ -39,6 +40,7 @@
                 İletişim
             </a>
         </div>
+        <button class="btn" onclick="toggleDarkMode()"></button>
     </div>
     <div class="container-fluid" id="body">
         <div class="container-lg" id="content">
