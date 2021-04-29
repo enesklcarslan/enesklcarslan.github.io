@@ -5,7 +5,8 @@
 let DarkMode = false;
 
 function toggleDarkMode() {
-    document.documentElement.classList.toggle('dark-mode')
+    // document.documentElement.classList.toggle('dark-mode')
+    document.getElementsByTagName("html")[0].classList.toggle('dark-mode')
     DarkMode = !DarkMode;
 
     console.log("Light mode: " + DarkMode);

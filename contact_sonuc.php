@@ -40,16 +40,35 @@
         <div class="container-lg" id="content">
             <div class="row">
                 <div class="col-md" id="subcontent">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim nibh et aliquet aliquet. Mauris vel velit aliquet, sollicitudin nisi ut, auctor erat. Ut in est accumsan, euismod lacus in, maximus est. Etiam blandit arcu ex, sit amet ornare eros placerat at. In eu leo sit amet dolor tristique bibendum et elementum neque. Cras condimentum ligula at eros auctor, nec hendrerit est aliquet. Etiam euismod pretium arcu, eget imperdiet lectus rutrum quis. Vestibulum pretium tortor ut nibh mollis, non commodo purus efficitur. Sed scelerisque felis in tincidunt tristique. Nam sit amet eleifend dolor, non eleifend lorem. Mauris sit amet odio in nulla dignissim convallis. Aenean tincidunt nisi ut est elementum rutrum. Praesent placerat, velit in venenatis lacinia, ipsum urna dapibus orci, dictum cursus eros risus sit amet dolor. Aliquam eleifend ipsum non condimentum facilisis. Donec finibus libero mauris, id aliquet massa accumsan non.
-
-                Phasellus rutrum vehicula elit in eleifend. Donec maximus orci erat, id sagittis metus viverra vitae. Suspendisse malesuada metus sed nunc vehicula facilisis. Vestibulum feugiat dapibus consectetur. Mauris luctus, erat non eleifend lobortis, diam nisi commodo augue, vitae condimentum ante odio eget massa. Nam ac purus sit amet felis tincidunt lacinia. Nunc ac nulla vitae augue venenatis volutpat at non mauris. Vivamus sed consequat dui. Vestibulum lorem leo, vulputate at metus sit amet, sagittis laoreet magna.
-                
-                Nunc nec velit vitae ante feugiat ornare. Nulla malesuada nisl lorem. Sed ultrices porttitor metus, a sollicitudin ligula viverra auctor. Aenean accumsan lorem eu libero gravida hendrerit in id erat. Phasellus sodales, risus et egestas tincidunt, enim augue lobortis nibh, eu porta magna lorem porttitor est. Donec vel eleifend est. In pellentesque purus id arcu molestie, sit amet finibus dui suscipit. Ut cursus mi nunc, vel tincidunt orci interdum ut.
-                
-                Proin et ex sit amet neque mollis accumsan. Nullam nec nibh eget turpis pretium posuere non vitae velit. In in tempor elit, sed pellentesque lectus. Donec massa diam, semper eu lacus id, mollis tempor mauris. Nulla eu aliquam nisl. Vestibulum aliquet lobortis ligula in ultrices. Aenean egestas eleifend tortor non iaculis. Praesent velit nisl, mattis sit amet tincidunt eget, blandit id neque.
-                
-                Pellentesque sapien velit, suscipit et metus quis, semper bibendum dui. Sed convallis enim nulla, nec auctor elit imperdiet vitae. Praesent porta feugiat arcu. Curabitur euismod semper nibh vel sollicitudin. Vestibulum nec justo eu justo tristique maximus eu eget ipsum. Donec sed aliquam lorem, non elementum mauris. Curabitur euismod mi vel justo dignissim tempor. Donec magna ante, varius in ultricies vitae, maximus id nisl. Proin at tellus condimentum, ornare sem quis, faucibus metus. Proin egestas eget arcu non lobortis.
-
+                    <h2 align="center">Sayın <?php echo $_POST['firstname'].' '.$_POST['lastname'] ?>, İletişim Talebiniz Alınmıştır.</h2>
+                    <h3 align="center">Gönderdiğiniz mesajın detayları aşağıdadır.</h3>
+                    <br>
+                    <table align="center" border="1px">
+                        <tr>
+                            <th>Ülkeniz:</th>
+                            <td><?php echo $_POST['country']?></td>
+                        </tr>
+                        <tr>
+                            <th>Telefon numaranız:</th>
+                            <td><?php echo $_POST['tel']?></td>
+                        </tr>
+                        <tr>
+                            <th>Mail adresiniz:</th>
+                            <td><?php echo $_POST['email']?></td>
+                        </tr>
+                        <tr>
+                            <th>Cinsiyetiniz:</th>
+                            <td><?php echo $_POST['cinsiyet']?></td>
+                        </tr>
+                        <tr>
+                            <th>Mesajınızın konusu:</th>
+                            <td><?php echo $_POST['sebep']?></td>
+                        </tr>
+                        <tr>
+                            <th>Mesajınız:</th>
+                            <td><?php echo $_POST['subject']?></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
     </div>

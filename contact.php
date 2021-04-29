@@ -41,7 +41,7 @@
         <div class="container-lg" id="content">
             <div class="row">
                 <div class="col-md" id="subcontent">
-                <form action="https://www.w3schools.com/action_page.php" method="POST" name="iletisim" onsubmit="return formKontrol()">
+                <form action="contact_sonuc.php" method="POST" name="iletisim" onsubmit="return formKontrol()">
                 <fieldset>
                     <legend>Kişisel Bilgiler</legend>
                     <label for="ad">Adınız</label>
@@ -51,11 +51,11 @@
                     <input type="text" id="soyad" name="lastname" placeholder="Soyadınız">
                     <label for="country">Ülkeniz</label>
                     <select style="color:black !important;" id="country" name="country">
-                        <option value="tr">Türkiye</option>
-                        <option value="cyp">Kıbrıs</option>
-                        <option value="usa">Amerika</option>
-                        <option value="uk">İngiltere</option>
-                        <option value="fr">Fransa</option>
+                        <option value="Türkiye">Türkiye</option>
+                        <option value="Kıbrıs">Kıbrıs</option>
+                        <option value="Amerika">Amerika</option>
+                        <option value="İngiltere">İngiltere</option>
+                        <option value="Fransa">Fransa</option>
                     </select>
                     <label for="tel">Telefon Numaranız</label>
                     <!--<input type="tel" id="tel" name="tel" pattern="[0-9]{10}" placeholder="10 haneli telefon numaranız" required>
@@ -90,6 +90,7 @@
                 </fieldset>
                 <br>
                 <input type="submit" value="Gönder">
+                    <input type="reset" value="Temizle">
 
                 </form>
                 </div>

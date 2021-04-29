@@ -66,6 +66,20 @@ option{
 body{
     background-color:#000000;
 }
+td, tr{
+    text-align:center;
+    vertical-align: center;
+    align:center;
+    padding-bottom:30px;
+}
+th{
+    font-weight: bolder;
+    text-align:right;
+    padding-left:10px;
+}
+table{
+    vertical-align: center;
+}
 footer{
     background-color:#000000;
     border-top:2px solid white;
@@ -81,13 +95,15 @@ input[type=text], input[type=password], input[type=email], input[type=tel], sele
     resize: vertical;
   }
   
-  input[type=submit] {
+  input[type=submit], input[type=reset] {
     background-color: white;
     color: black !important;
     padding: 10px 20px;
     border: 1px solid black;
     border-radius: 4px;
       cursor: pointer;
+      margin-right: 25px;
+      width:150px;
   }
 input[type=radio] {
     margin:15px 9px;
