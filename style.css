@@ -173,3 +173,9 @@ input[type=radio] {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  h2{
+      padding-top:30px;
+  }
+.carousel-control-next, .carousel-control-prev {
+    opacity:8%;
+}
