@@ -179,3 +179,7 @@ input[type=radio] {
 .carousel-control-next, .carousel-control-prev {
     opacity:8%;
 }
+#poster{
+    border: 15px solid grey;
+    border-radius:20px;
+}
