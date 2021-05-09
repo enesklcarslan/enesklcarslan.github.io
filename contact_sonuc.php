@@ -29,7 +29,7 @@
             <a href="login.php" class="col-md" id="nav">
                 Login
             </a>
-            <a href="contact.php" class="col-md" id="nav">
+            <a href="contact.php" class="col-md active" id="nav">
                 İletişim
             </a>
         </div>

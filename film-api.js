@@ -6,6 +6,8 @@ function apiCall(){
         console.log(data);
         if(data.Response == "False")
             apiCall();
+        for(var i = 0; i < 10; i++)
+            $('.fa-star').eq(i).removeClass('checked');
         if(data.Poster!='N/A')
             $('#poster').attr('src', data.Poster);
         else
@@ -17,6 +19,23 @@ function apiCall(){
         else
             $('#dili').html(data.Language);
         $('#oyunculari').html(data.Actors);
+        var puan = 0;
+        if(data.imdbRating == "N/A")
+        {
+            puan = Math.round(data.imdbRating);
+            $('#puani').html('IMDb puanı bulunamadı!');
+            $('.fa-star').addClass('hidden');
+        }
+        else if(data.imdbRating != 'N/A')
+        {
+            $('#puani').html(data.imdbRating);
+            puan = Math.round(data.imdbRating);
+            $('.fa-star').removeClass('hidden');
+            for(var i = 0; i < puan; i++)
+            {
+                $('.fa-star').eq(i).addClass('checked');
+            }
+        }
     })
 }
 //apiCall();

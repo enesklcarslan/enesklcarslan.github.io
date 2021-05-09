@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="film-api.js"></script>
@@ -25,7 +26,7 @@
             <a href="mirasimiz.html" class="col-md" id="nav">
                 Mirasımız
             </a>
-            <a href="hobilerim.php" class="col-md" id="nav">
+            <a href="hobilerim.php" class="col-md active" id="nav">
                 İlgi Alanlarım
             </a>
             <a href="login.php" class="col-md" id="nav">
@@ -46,11 +47,23 @@
                     servisi kullanarak oluşturduğum JQuery uygulaması sayesinde
                     butona basarak istediğiniz kadar rastgele film/dizi önerisi
                     alabilir ve filmin/dizinin bilgilerini görebilirsiniz.
-                    <br><br><img class="poster" id="poster" src=""><br>
-                        Filmin/Dizinin Adı: <span id="ismi"></span><br>
-                        Yapım Senesi: <span id="yili"></span><br>
-                        Dili: <span id="dili"></span><br>
-                        Oyuncular: <span id="oyunculari"></span><br>
+                    <br><br>
+                    <img class="poster" id="poster" src=""><br>
+                    Filmin/Dizinin Adı: <span id="ismi"></span><br>
+                    Yapım Senesi: <span id="yili"></span><br>
+                    Dili: <span id="dili"></span><br>
+                    Oyuncular: <span id="oyunculari"></span><br>
+                    IMDb Puanı: <span id="puani"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
                     <br><br>
                     <button style="color:black !important;" onclick="apiCall()">Rastgele Film Önerisi Yap</button>
                 </div>
