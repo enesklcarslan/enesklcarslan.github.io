@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <script src="darkmode.js"></script>
     <title>Mesajınız Gönderildi!</title>
@@ -76,6 +77,7 @@
         <div class="text-center p-3">
             © 2021 Copyright:
             <span class="text-white-50">Enes Kılıçarslan</span>
+            <div style="display:inline; float:right;"><a href="https://github.com/enesklcarslan" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
         </div>
     </footer>
 

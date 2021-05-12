@@ -192,3 +192,71 @@ input[type=radio] {
 .hidden{
     display:none;
 }
+hr{
+    border:1px solid grey !important;
+}
+.fa-github{
+    opacity:75%;
+}
+.fa-github:hover{
+    opacity:100%;
+}
+
+.hover-title {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.hover-vid {
+    visibility: hidden;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-vid {
+    visibility: visible;
+    pointer-events: none;
+}
+
+.hover-vid {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 90vh;
+}
+
+.hover-vid video {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 0;
+}
+button.accordion-button{
+    color:black !important;
+}
+.embed-responsive{
+    opacity:100%;
+    width:50%;
+}
+.section{
+    background-color:gray !important;
+    border-radius:50px !important;
+    transition-duration:7s;
+    margin-bottom:25px;
+    float:left;
+}
+.section:hover{
+    background-color: #525252 !important;
+    width:100vw;
+    transition-duration:8s;
+
+}
