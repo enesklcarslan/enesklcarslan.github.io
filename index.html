@@ -1,120 +1,49 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="darkmode.js"></script>
-    <title>Anasayfa</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Enes Kılıçarslan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <div class="container-fluid" id="header">
-        <div class="row">
-            <a href="index.html" class="col-md active" id="nav">
-                Hakkında
-            </a>
-            <a href="ozgecmis.html" class="col-md" id="nav">
-                Özgeçmiş
-            </a>
-            <a href="sehrim.html" class="col-md" id="nav">
-                Şehrim
-            </a>
-            <a href="mirasimiz.html" class="col-md" id="nav">
-                Mirasımız
-            </a>
-            <a href="hobilerim.php" class="col-md" id="nav">
-                İlgi Alanlarım
-            </a>
-            <a href="login.php" class="col-md" id="nav">
-                Login
-            </a>
-            <a href="contact.php" class="col-md" id="nav">
-                İletişim
-            </a>
-
+    <header>
+        <div>
+            <h1>Enes Kılıçarslan</h1>
+            <h2 class="text-muted">Junior Developer</h2>
         </div>
-        <button class="btn" onclick="toggleDarkMode()"></button>
-    </div>
-
-    <div class="container-fluid" id="body">
-        <div class="container-lg" id="content">
-            <div class="row">
-                <div class="col-md" id="subcontent">
-                    <div align="center"><h1>Hoşgeldiniz!</h1></div>
-                    <br>
-                    <hr>
-                    <p>
-                        Merhaba, Web Teknolojileri dersinin proje ödevi olarak hazırladığım
-                        ve kendimi, şehrimi, ilgi alanlarımı; HTML, CSS ve Javascript
-                        teknolojilerini kullanarak tanıttığım websiteme hoşgeldiniz.
-                    </p>
-                    <hr>
-                    <p>
-                        Ben Enes KILIÇARSLAN. 2001 yılında Erzurumda doğdum. Şu anda
-                        öğrenimime Sakarya Üniversitesinin Bilgisayar Mühendisliği
-                        Bölümü’nde 1. Sınıf öğrencisi olarak devam ediyorum.
-                    </p>
-                    <hr>
-                    <p>
-                        Boş zamanlarımın çoğunu okulda öğrendiğim ve ileride bilgisayar
-                        mühendisliği mesleğini icra ederken işime yarayacak bilgileri pekiştirmeye,
-                        üstüne yeni bilgiler koymaya, projeler geliştirip kendimi sınamaya
-                        ayırıyorum. Onun dışında bol bol film ve dizi izliyorum. Bu sebeple
-                        oluşturduğum IMDb üzerinden rastgele film ve dizi önerisi yapan
-                        uygulamaya <a href="hobilerim.php">BURAYA tıklayarak ulaşabilirsiniz.</a>
-                    </p>
-                    <hr>
-                    <p>
-                        Aynı zamanda amatör olarak animasyonlar yapıyorum. Kız arkadaşımın
-                        çizdiği ve animasyonunu benim yaptığım bir çalışmayı görüntülemek için:
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    GÖRÜNTÜLE
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="embed-responsive embed-responsive-1by1">
-                                        <video class="embed-responsive-item" src="https://fnd.fleek.co/fnd-prod/QmQh36ioac3mqjqGxJRtdJctGnRN26J1XsR3WhXb5CoM4m/nft.mp4" poster="https://fnd.fleek.co/fnd-prod/QmQh36ioac3mqjqGxJRtdJctGnRN26J1XsR3WhXb5CoM4m/nft.jpg" loop autoplay muted playsinline></video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </p>
-                    <hr>
-                    <p>
-                        Sosyal medyayı aktif olarak kullanmıyorum ancak bu site vasıtasıyla
-                        GitHub’ı aktif olarak kullanma kararı aldım. Sitenin en altındaki
-                        footer kısmından GitHub ikonuna tıklayarak GitHub hesabıma ulaşabilir
-                        ve çalışmalarımı inceleyebilirsiniz. Aynı zamanda <a href="https://github.com/enesklcarslan">BURAYA TIKLAYARAK</a>
-                        da GitHub hesabıma ulaşabilirsiniz.
-                    </p>
-                    <hr>
-                    <p>
-                        Umarım sitemde keyifli zaman geçirirsiniz.
-                    </p>
-
-                        <!--<img class="img-fluid" style="border:0px" src="/img/foto.jpg"></img>-->
-
-                </div>
+    </header>
+    <main>
+        <article>
+            <p>
+                Welcome to my personal website. I am a Computer Science student at Sakarya University. My goal is to always develop my skills and update this website constantly. You can check out my front-end scribbles, made mostly to develop my skills in Jquery, Bootstrap
+                and CSS by clicking the button below.
+            </p>
+            <div class="text-center">
+                <a href="https://enesklcarslan.github.io/web-samples/">
+                    <button class="btn btn-primary" id="go-to-button">Front-end Scribbles</button>
+                </a>
             </div>
-        </div>
-    </div>
+        </article>
+    </main>
     <footer>
-        <div class="text-center p-3">
-            © 2021 Copyright:
-            <span class="text-white-50">Enes Kılıçarslan</span>
-            <div style="display:inline; float:right;"><a href="https://github.com/enesklcarslan" target="_blank"><i class="fab fa-github fa-2x"></i></a></div>
+        <div class="text-center">
+            <p>&copy; 2022 Enes Kılıçarslan</p>
+        </div>
+        <!--contact me-->
+        <div class="text-center">
+            <a href="https://www.linkedin.com/in/enes-kilicarslan/" target="_blank">
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/enesklcarslan" target="_blank">
+                <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
         </div>
     </footer>
-
 </body>
 
 </html>
